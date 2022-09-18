@@ -10,6 +10,6 @@ if 100 <= number <= 999:
     sign = number % 10
     number = number // 10
     reverced_number = reverced_number * 10 + sign
-    print (reverced_number)
+    print ("reverced_number =", reverced_number)
 else:
     print ("ПОМИЛКА! Введіть ВИКЛЮЧНО тризначне число!")
