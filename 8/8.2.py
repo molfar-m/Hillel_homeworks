@@ -1,0 +1,9 @@
+start_fibo = 0
+next_fibo = 1
+count = int(input('Введіть номер елементу послідовності Фібоначчі: '))
+b = 0
+while b <= count - 1:
+    print(start_fibo, end=' ')
+    sum_fibo = start_fibo + next_fibo
+    start_fibo, next_fibo = next_fibo, sum_fibo
+    b += 1
