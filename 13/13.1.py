@@ -7,4 +7,4 @@ def change(lst):
     return lst
 
 
-print(change([1, 2, 4, 100]))
+print(change(['volodymyr', 2, 'w', 4, 100]))
